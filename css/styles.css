@@ -1,6 +1,47 @@
+:root {
+  --main-color: #f1f1f1;
+  --secondry-color: #3a3b3c;
+}
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body {
+  background-color: #242526;
+  line-height: 1.5;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+header img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+header .ur-profile {
+  display: flex;
+  align-items: center;
+}
+header .ur-profile h2 {
+  color: var(--main-color);
+  font-size: 1.7em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  max-width: 100%;
+}
+header .icons i {
+  font-size: 1.3em;
+  color: var(--main-color);
+  background-color: var(--secondry-color);
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+header .icons i:first-of-type {
+  margin-right: 20px;
 }
