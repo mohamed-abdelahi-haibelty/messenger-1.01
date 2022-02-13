@@ -1,6 +1,7 @@
 :root {
-  --main-color: #f1f1f1;
+  --main-color: #d5d5d5;
   --secondry-color: #3a3b3c;
+  --third-color: #a9acb1;
 }
 * {
   font-family: "Roboto", sans-serif;
@@ -9,7 +10,7 @@
   padding: 0;
 }
 body {
-  background-color: #242526;
+  background-color: #000;
   line-height: 1.5;
 }
 header {
@@ -30,18 +31,42 @@ header .ur-profile {
 header .ur-profile h2 {
   color: var(--main-color);
   font-size: 1.7em;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
   max-width: 100%;
 }
 header .icons i {
   font-size: 1.3em;
   color: var(--main-color);
-  background-color: var(--secondry-color);
+  background-color: #212121;
   padding: 10px;
   border-radius: 50%;
   margin-left: 5px;
 }
 header .icons i:first-of-type {
   margin-right: 20px;
+}
+/* End header */
+.search input[type="text"] {
+  width: 90%;
+  background-color: #212121;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  color: var(--main-color);
+  position: relative;
+  padding-left: 35px;
+  margin-left: 22px;
+}
+.search i {
+  position: absolute;
+  left: 31px;
+  z-index: 1;
+  top: 130px;
+  color: #888;
+}
+::placeholder {
+  color: #888888;
+  font-size: 19px;
 }
