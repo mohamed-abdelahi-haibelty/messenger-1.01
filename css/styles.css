@@ -140,13 +140,22 @@ header .icons i:first-of-type {
 .profil-message {
   display: flex;
   align-items: center;
+  margin-left: 18px;
 }
 .profil-message img {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  border: solid 2px var(--third-color);
 }
 .profil-message .text {
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
+}
+.profil-message .text h3 {
+  color: var(--third-color);
+}
+.profil-message .text span {
+  color: var(--third-color);
 }
