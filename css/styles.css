@@ -131,3 +131,9 @@ header .icons i:first-of-type {
   border-radius: 50%;
   border: solid 1px white;
 }
+/* ----chat section */
+.chat-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
