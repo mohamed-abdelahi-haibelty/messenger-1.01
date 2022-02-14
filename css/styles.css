@@ -2,6 +2,7 @@
   --main-color: #d5d5d5;
   --secondry-color: #3a3b3c;
   --third-color: #a9acb1;
+  --fourth-color: #212121;
 }
 * {
   font-family: "Roboto", sans-serif;
@@ -47,6 +48,9 @@ header .icons i:first-of-type {
   margin-right: 20px;
 }
 /* End header */
+.search {
+  margin-bottom: 20px;
+}
 .search input[type="text"] {
   width: 90%;
   background-color: #212121;
@@ -69,4 +73,61 @@ header .icons i:first-of-type {
 ::placeholder {
   color: #888888;
   font-size: 19px;
+}
+/* -----story */
+.story {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: -5px;
+  padding-left: 16px;
+  overflow: auto;
+}
+.story::-webkit-scrollbar {
+  display: none;
+}
+
+.story .video-call i {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.6em;
+  color: #d5d5d5;
+  background-color: var(--fourth-color);
+  padding: 10px;
+  margin: 10px;
+}
+.story .video-call {
+  text-align: center;
+}
+.story .video-call h3 {
+  color: #d5d5d5;
+}
+.user-items {
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+.user-items h3 {
+  color: #d5d5d5;
+}
+.story .user-items .image img {
+  border-radius: 50%;
+  width: 50px;
+  margin-top: -18px;
+}
+.story .user-items .image {
+  position: relative;
+}
+.story .user-items .image::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  font-weight: bold;
+  background-color: #31a24c;
+  position: absolute;
+  bottom: 17px;
+  right: 17px;
+  border-radius: 50%;
+  border: solid 1px white;
 }
