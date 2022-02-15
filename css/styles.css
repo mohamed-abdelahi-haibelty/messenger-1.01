@@ -163,3 +163,7 @@ header .icons i:first-of-type {
 .profil-message .text span {
   color: var(--third-color);
 }
+.time-message {
+  color: white;
+  margin-left: auto;
+}
