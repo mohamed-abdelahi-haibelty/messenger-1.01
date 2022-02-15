@@ -178,6 +178,15 @@ header .icons i:first-of-type {
   color: white;
   margin-left: auto;
 }
+footer {
+  background-color: #000;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  padding-top: 14px;
+  z-index: 5;
+  bottom: 0px;
+}
 footer .foot {
   display: flex;
   align-items: center;
