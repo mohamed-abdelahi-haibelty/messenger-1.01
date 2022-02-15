@@ -115,7 +115,10 @@ header .icons i:first-of-type {
   border-radius: 50%;
   width: 50px;
   margin-top: -18px;
-  border: 4px solid #1f2530;
+  transition: 0.5s ease;
+}
+.story .user-items .image img:hover {
+  transform: scale(1.1);
 }
 .story .user-items .image {
   position: relative;
@@ -125,12 +128,12 @@ header .icons i:first-of-type {
   width: 10px;
   height: 10px;
   font-weight: bold;
-  background-color: #31a24c;
+  background-color: #088525;
   position: absolute;
-  bottom: 17px;
-  right: 17px;
+  bottom: 14px;
+  right: 13px;
   border-radius: 50%;
-  border: solid 1px white;
+  border: solid 2px #000;
 }
 /* ----chat section */
 .chat-section {
