@@ -145,6 +145,7 @@ header .icons i:first-of-type {
   display: flex;
   align-items: center;
   margin-left: 18px;
+  margin-bottom: 24px;
 }
 .profil-message img {
   border-radius: 50%;
