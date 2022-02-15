@@ -196,3 +196,22 @@ footer .foot i {
   font-size: 1.3em;
   color: #0084ff;
 }
+footer .foot div {
+  position: relative;
+}
+
+footer .foot div::before {
+  content: "1";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  right: -14px;
+  left: 11px;
+  top: -5px;
+}
