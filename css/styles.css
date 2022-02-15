@@ -181,4 +181,9 @@ header .icons i:first-of-type {
 footer .foot {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+footer .foot i {
+  font-size: 1.3em;
+  color: #0084ff;
 }
